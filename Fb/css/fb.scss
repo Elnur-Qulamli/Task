@@ -1,0 +1,120 @@
+$allHeader:#3F5D9A;
+$formColor:#7A838E;
+$titleColor:#90949C;
+$mainTop:white;
+$mainBottom:#D9DBE7;
+$allLink:#385898;
+
+@mixin dpFlex{
+    display: flex;
+        align-items: center;
+    justify-content: center; 
+    color: white;
+}
+
+@mixin footer{
+    width: 78%;
+    border-bottom: 1px solid $titleColor;
+    padding-bottom: 0.5em;
+    li{
+        display: inline;
+        font-size: 0.8em;
+    } 
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background-color: $allHeader;
+    .logo{
+        @include dpFlex();
+    }
+    .login_password{
+        padding-top: 1vw;
+       @include dpFlex();
+        label{
+            font-size: 0.8em;
+            line-height: 0.5em;
+            margin-bottom: 0;
+        }
+        input{
+            height: 1.4em;
+            width: 32%;
+            border: 1px solid #1D2A5B;
+        }
+        button{
+            margin: 0;
+            height: 1.5em; 
+            line-height: 0.1em; 
+            color:white;
+            background-color: #4267B2;
+            font-size: 0.9em;
+            border:1px solid #29487D;
+            border-radius: 0.2em;
+        }
+        small{
+            a{
+            color:#91AAD1;
+        }
+    }
+}
+}
+main{
+    background-image: linear-gradient(white,#D9DBE7);
+    padding-top: 2em;
+    margin-bottom: 3em;
+    .like_smail {
+        @include dpFlex();
+width: 80%;
+height: 550px;
+    }
+    .register_form{
+        h2{
+font-size: 2.5em;
+        }
+        .form-group{
+input {
+            width: 40%;
+            margin: 0.3em;
+            color: black;
+            border-radius: 0.2em;
+            height: 2em;
+            border: 1px solid $formColor; 
+        }
+        #email,#new_password{
+            width: 83%;
+        }   
+        p{
+         color: $titleColor; 
+         margin-top: 0.5em;  
+         margin-bottom: 0;
+        }
+       
+        .btn{
+            font-weight: bold;
+        }
+    }  
+}
+.small{
+    width: 68%;
+    color: $titleColor;
+}
+
+}
+footer{
+    .language {
+       display: flex;
+       justify-content: space-around;
+@include footer();
+}
+.page{
+    text-align: justify; 
+    @include footer();
+}
+span{
+font-size: 0.8em;
+margin-left: 3vw;
+}
+}

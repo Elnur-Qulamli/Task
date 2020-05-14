@@ -1,0 +1,149 @@
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #3F5D9A;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+header .login_password {
+  padding-top: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+header .login_password label {
+  font-size: 0.8em;
+  line-height: 0.5em;
+  margin-bottom: 0;
+}
+
+header .login_password input {
+  height: 1.4em;
+  width: 32%;
+  border: 1px solid #1D2A5B;
+}
+
+header .login_password button {
+  margin: 0;
+  height: 1.5em;
+  line-height: 0.1em;
+  color: white;
+  background-color: #4267B2;
+  font-size: 0.9em;
+  border: 1px solid #29487D;
+  border-radius: 0.2em;
+}
+
+header .login_password small a {
+  color: #91AAD1;
+}
+
+main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#D9DBE7));
+  background-image: linear-gradient(white, #D9DBE7);
+  padding-top: 2em;
+  margin-bottom: 3em;
+}
+
+main .like_smail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  width: 80%;
+  height: 550px;
+}
+
+main .register_form h2 {
+  font-size: 2.5em;
+}
+
+main .register_form .form-group input {
+  width: 40%;
+  margin: 0.3em;
+  color: black;
+  border-radius: 0.2em;
+  height: 2em;
+  border: 1px solid #7A838E;
+}
+
+main .register_form .form-group #email, main .register_form .form-group #new_password {
+  width: 83%;
+}
+
+main .register_form .form-group p {
+  color: #90949C;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+main .register_form .form-group .btn {
+  font-weight: bold;
+}
+
+main .small {
+  width: 68%;
+  color: #90949C;
+}
+
+footer .language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 78%;
+  border-bottom: 1px solid #90949C;
+  padding-bottom: 0.5em;
+}
+
+footer .language li {
+  display: inline;
+  font-size: 0.8em;
+}
+
+footer .page {
+  text-align: justify;
+  width: 78%;
+  border-bottom: 1px solid #90949C;
+  padding-bottom: 0.5em;
+}
+
+footer .page li {
+  display: inline;
+  font-size: 0.8em;
+}
+
+footer span {
+  font-size: 0.8em;
+  margin-left: 3vw;
+}
+/*# sourceMappingURL=fb.css.map */
